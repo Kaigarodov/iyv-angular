@@ -1,0 +1,13 @@
+<p>custom-button works!</p>
+<p *ngIf="true">some</p>
+<div *ngFor="let item of array">
+    {{item}}
+</div>
+
+<h1>{{someToken}}</h1>
+<h2>{{incrementValue}}</h2>
+<h3>{{someFactory}}</h3>
+<button (click)="onClickButton()">run set timeout</button>
+<button (click)="increment()">increment</button>
+<button>click me without callback</button>
+<div [className]="incrementValue > 10 ? 'baseClassMode' : classMode">класс с модикатором</div>
